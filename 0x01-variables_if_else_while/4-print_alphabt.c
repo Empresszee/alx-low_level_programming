@@ -9,17 +9,15 @@ int main(void)
 {
 		char mine = 'a';
 
-			while (mine <= 'z'		
+
+		while (mine <= 'z')
+		{
+			if (mine != 'e' && mine != 'q')
 			{
-
-				if (mine != 'e' && mine != 'q')
-
-				{
-							
-					putchar(mine);								}
-				mine++;
-
+				putchar(mine);
 			}
+				mine++;
+		}
 
 			putchar('\n');
 
