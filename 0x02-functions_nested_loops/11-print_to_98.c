@@ -8,9 +8,11 @@
 void print_to_98(int var)
 {
 	int stopLimit = 98;
+	
 	if (var > stopLimit)
 	{
 		int ii;
+
 		for (ii = var; ii >= stopLimit; ii--)
 		{
 			printf("%d", ii);
