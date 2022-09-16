@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 
 /**
  * mul - takes 2 variable and multiply them
