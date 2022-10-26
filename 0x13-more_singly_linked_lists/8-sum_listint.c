@@ -18,5 +18,4 @@ add += head->n;
 head = head->next;
 }
 return (add);
-#nclude <stdio.h>
-
+}
